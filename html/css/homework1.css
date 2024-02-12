@@ -1,0 +1,41 @@
+.container {
+    width: 800px;
+}
+
+.left-container {
+    width: 80%;
+    height: 200px;
+    float: left;
+    
+}
+
+.right-container {
+    width: 20%;
+    height: 200px;
+    float: left;
+}
+
+.profile {
+    width: 50px;
+    float: left;
+}
+
+.navbar>li {
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    border-style: solid;
+    border-color: #eee;
+    padding: 1px;
+    border-radius: 5px;
+}
+
+.navbar a {
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:visited {
+    color: black;
+}

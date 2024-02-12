@@ -1,0 +1,179 @@
+div {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.profile {
+    width: 170px; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 20px
+}
+
+.name {
+    font-family: 'nanumsquare'; 
+    font-size: 16px; 
+    letter-spacing: 1px; 
+    text-align: center; 
+    margin-top: 30px; 
+    font-weight: 550
+}
+
+.introduce {
+    text-align: center; 
+    margin-top: -0.5%
+}
+
+.box {
+    width: 200px;
+    background-color: cadetblue;
+    margin-top: 40px;
+    padding: 40px;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    box-shadow: 5px 5px black;
+}
+
+.container {
+    width: 800px
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: aquamarine
+}
+
+.left-menu {
+    width: 20%;
+    height: 400px;
+    background: cornflowerblue;
+    /* float: left; */
+    display: inline-block;
+    vertical-align: top;
+}
+
+.content {
+    width: 80%;
+    height: 400px;
+    background: coral;
+    /* float: left; */
+    display: inline-block;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    /* clear: both; */
+}
+
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/shoes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px;
+    position: relative;
+}
+
+.main-title {
+    color: white;
+    font-size: 40px;
+    margin-top: 100px;
+    display: block;
+    text-align: center;
+}
+
+.main-content {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.main-button {
+    /* width: 100px; */
+    height: 35px;
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border: none;
+    /* border-radius: 5px; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100px;
+    bottom: 200px;
+    /* z-index: 5; */
+}
+
+.main-button a { 
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.main-button a:visited {
+    color:black;
+}
+
+.explain-box {
+    width: 70%; /*반응형 웹페이지 만들 때 % 자주 사용*/
+    max-width: 600px;
+    padding: 20px;
+    background-color: gainsboro;
+    text-align: center;
+    position: relative;
+    top: -50px;
+    margin: auto;
+    /* box-sizing: border-box; */
+    /* z-index: 1; */
+}
+
+input[type=text] {
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+.f-small {
+    font-size: 12px;
+}
+.f-mid {
+    font-size: 16px;
+}
+.f-lg {
+    font-size: 20px;
+}
+
+.main-btn {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.bg-red {
+    background: red;
+}
+
+.bg-blue {
+    background: blue;
+}

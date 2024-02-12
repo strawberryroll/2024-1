@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+
+.cart-background {
+    background-color: lightblue;
+    width: 100%;
+    padding: 30px;
+}
+
+
+.cart-text {
+    font-size: 20px;
+    color: black;
+    font-weight: 1000;
+}
+
+.cart-button {
+    background-color: steelblue;
+    color: white;
+    border-radius: 3px;
+    border-style: none;
+    font-size: 15px;
+    padding: 8px;
+/*
+    position: absolute;
+    margin: auto;
+    right: 0;
+*/
+    cursor: pointer;
+    
+}
+.cart-button:hover {
+    background-color: dimgray;
+}
+.cart-button:focus {
+    background-color: grey;
+}
+.cart-button:active {
+    background-color: antiquewhite;
+}
+
+
+.cart-table {
+    width: 100%;
+    max-width: 700px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 20px;
+    border-collapse: collapse;
+}
+
+.cart-img {
+    width: 50px;
+}
+
+.cart-table td, .cart-table th {
+    padding: 15px;
+    border-bottom: 1px solid lightblue;
+    text-align: center;
+}
+
+.cart-table th:nth-child(2) {
+    width: 400px;
+}
+
+
+.input-test {
+    font-size: 15px;
+}
+.input-test:focus {
+    border: 2px solid red;
+}
+
+.custom-link {
+    text-decoration: none;  
+}
+.custom-link:link {
+    color: aqua;
+}
+.custom-link:visited {
+    color: aquamarine;
+}
