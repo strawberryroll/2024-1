@@ -1,0 +1,28 @@
+function 삼육구게임(num) {
+    if (num%9 == 0){
+        console.log("박수x2");
+    } else if (num%3 == 0) {
+        console.log("박수");
+    } else {
+    console.log ("통과");
+    }
+}
+
+function 합격여부(m, n) {
+    if (m < 40 || n < 40) {
+        console.log("불합격");
+    }
+    else if (m+n >= 120) {
+        console.log("합격");
+    } else {
+        console.log("불합격");
+    }
+}
+
+삼육구게임(6);
+삼육구게임(9);
+삼육구게임(12);
+삼육구게임(11);
+합격여부(70, 70);
+합격여부(30, 100);
+합격여부(50, 50);

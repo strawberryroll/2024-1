@@ -3,17 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <h1 id="hello">안녕하세요</h1>
-    <h1 id="hi">JS 초보에요</h1>
-    
+    <div class="alert-box" id="alert">
+        <p id="title">Holy guacamole! You should check in on some of those fields below.</p> 
+       <button id="close">닫기</button>
+    </div>
+    <button onclick="login()">아이디</button>
+    <button onclick="pwd()">비밀번호</button>
     <script>
-        document.getElementById('hello').innerHTML = '안녕';
-        document.getElementById('hello').style.color = 'blue';
-        document.getElementById('hi').innerHTML = 'JS 고수에요';
-        document.getElementById('hello').style.fontSize = '16px';
+        
+        document.getElementById("close").addEventListener('click', function(){
+            document.getElementById('alert').style.display = 'none';
+        });
+        
+        function operateAlert(param){
+            document.getElementById('alert').style.display = param;
+        }
+        
+        function login(){
+        document.getElementById('title').innerHTML = '아이디를 입력해주세요';
+        document.getElementById('alert').style.display = 'block';
+        }
+        function pwd(){
+        document.getElementById('title').innerHTML = '비밀번호를 입력해주세요';
+        document.getElementById('alert').style.display = 'block';
+            
+        }
+        
+//        function openAlert(){
+//         document.getElementById('alert').style.display = 'block';
+//        }
+//        function closeModal(){
+//         document.getElementById('alert').style.display = 'none';
+//        }
     
     </script>
+    
 </body>
 </html>
